@@ -1,8 +1,10 @@
 #version 400
 
+in vec4 frag_color;
+
 out vec4 output_color;
 
 void main()
 {
-    output_color = vec4(1.0f, 1.0f, 1.0f, 0.2f);
+    output_color = frag_color;
 }

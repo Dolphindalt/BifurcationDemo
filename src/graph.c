@@ -2,11 +2,14 @@
 #include <stdio.h>
 
 #include <stdlib.h>
+#include <math.h>
 
 void render_graph(graph_t graph)
 {
     for(int i = 0; i < graph.size; i++)
     {
+        float color = (i - log(log(graph.points[i].x*graph.points[i].x+graph.points[i].y*graph.points[i].y)/log(i)))/i;
+        glColor4f(0, 0, color, 0.2);
         glVertex2f(graph.points[i].x, graph.points[i].y);
     }
 }
