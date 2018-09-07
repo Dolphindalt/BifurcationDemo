@@ -1,2 +1,2 @@
 ## Bifurcation Diagram of Logistic Function
-![graph](https://github.com/Dolphindalt/BifurcationDemo/blob/master/bluebox.png)
+![graph](https://github.com/Dolphindalt/BifurcationDemo/blob/master/bp.png)
